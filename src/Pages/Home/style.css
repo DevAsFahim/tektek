@@ -1,0 +1,11 @@
+.main_container {
+    display: flex;
+    gap: 18px;
+}
+.post_form {
+    flex-basis: 40%;
+    padding: 40px 20px;
+}
+.posts {
+    flex-basis: 60%;
+}

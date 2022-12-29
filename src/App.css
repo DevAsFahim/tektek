@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.custom_container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.media_container {
+    max-width: 600px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.post {
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgb(211, 207, 207);
+    margin: 20px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 220, 220);
+    padding-bottom: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.post_body .post_img {
+    height: 360px;
+    background: #FAF7F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post_body .post_img img {
+    max-height: 100%;
+    max-width: 100%;
+    background: rgb(212, 209, 209);
 }
